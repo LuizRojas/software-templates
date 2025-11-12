@@ -1,0 +1,33 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: software-templates-collection
+  description: Uma coleção de templates do Scaffolder para o Backstage
+spec:
+  targets:
+    # Template Clean Architecture Java
+    - ./scaffolder-templates/clean-architecture-app/template.yaml
+    
+    # Template Create React App (CRA)
+    - ./scaffolder-templates/create-react-app/template.yaml
+    
+    # Template de Documentação
+    - ./scaffolder-templates/docs-template/template.yaml
+    
+    # Template de Documentação (Cookiecutter)
+    - ./scaffolder-templates/docs-template-cookiecutter/template.yaml
+    
+    # Template GitLab Merge Request
+    - ./scaffolder-templates/gitlab-merge-request/template.yaml
+    
+    # Template GitHub Pull Request
+    - ./scaffolder-templates/pull-request/template.yaml
+    
+    # Template Rails Demo
+    - ./scaffolder-templates/rails-demo/template.yaml
+    
+    # Template React SSR (Next.js)
+    - ./scaffolder-templates/react-ssr-template/template.yaml
+    
+    # Template Spring Boot gRPC
+    - ./scaffolder-templates/springboot-grpc-template/template.yaml
