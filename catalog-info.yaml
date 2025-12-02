@@ -31,3 +31,6 @@ spec:
     
     # Template Spring Boot gRPC
     - ./scaffolder-templates/springboot-grpc-template/template.yaml
+
+    # Template C# Web API
+    - ./scaffolder-templates/csharp-webapi/template.yaml
