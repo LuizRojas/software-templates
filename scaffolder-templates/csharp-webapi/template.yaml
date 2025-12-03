@@ -10,7 +10,7 @@ metadata:
     - dotnet
     - webapi
 spec:
-  owner: user:guest
+  owner: group:default/plataforma
   type: service
 
   parameters:
