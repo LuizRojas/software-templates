@@ -6,7 +6,7 @@ metadata:
 spec:
   targets:
     # Template Clean Architecture Java
-    - ./scaffolder-templates/clean-architecture-app/template.yaml
+    # - ./scaffolder-templates/clean-architecture-app/template.yaml
     
     # Template Create React App (CRA)
     - ./scaffolder-templates/create-react-app/template.yaml
